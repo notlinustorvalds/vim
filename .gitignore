@@ -1,0 +1,5 @@
+# Ignore file for the vim config directory
+
+# We ***NEVER*** want to deal with the history in the repo
+HOME/.vim/view/*
+
