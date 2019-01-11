@@ -1,5 +1,7 @@
 # Ignore file for the vim config directory
 
 # We ***NEVER*** want to deal with the history in the repo
-HOME/.vim/view/*
+# HOME/.vim/view/*
+# ...but instead of commenting here, we use the ignore file in
+#    the directory so that the directory is created -- but that's it 
 
