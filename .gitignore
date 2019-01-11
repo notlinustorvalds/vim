@@ -3,5 +3,28 @@
 # We ***NEVER*** want to deal with the history in the repo
 # HOME/.vim/view/*
 # ...but instead of commenting here, we use the ignore file in
-#    the directory so that the directory is created -- but that's it 
+#    the directory so that the directory is created -- but that's it
+#
+# Here's how to add an empty directory to a git repo
+# (from https://steindom.com/articles/add-empty-directory-git-repository )
+#   If your app depends on the folders being there (though empty), you 
+#   can simply add a `.gitignore` file to the folder in question, and use
+#   it to accomplish two goals:
+# 
+#   1. Tell Git there's a file in the folder, which makes Git add it to 
+#      the repo.
+#   1. Tell Git to ignore the contents of this folder, minus this file 
+#      itself.
+#
+#   Here is the .gitignore file to put inside your empty directories:
+#   ```
+#       *
+#       !.gitignore
+#   
+#   ```
+#   The first line (*) tells Git to ignore everything in this 
+#   directory. The second line tells Git not to ignore the 
+#   .gitignore file. You can stuff this file into every 
+#   empty folder you want added to the repo.
+
 

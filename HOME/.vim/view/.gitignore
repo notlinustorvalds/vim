@@ -1,3 +1,5 @@
 # NEVER EVER LOAD ANYTHING IN THIS DIRECTORY INTO THE REPO!!!
-./*.*
+# - https://steindom.com/articles/add-empty-directory-git-repository
+*
+!.gitignore
 
